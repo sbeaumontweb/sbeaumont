@@ -7,6 +7,9 @@
   <title>Date ranges</title>
   <meta name="description" content="Testing page for date ranges on assistive technology">
   <meta name="author" content="Sophie Beaumont">
+
+  <link rel="stylesheet" href="./visually-hidden.css">
+
 </head>
 
 <body>
@@ -38,14 +41,23 @@
       </span>
     </h3>
 
-
     <h2>With visually hidden "to" and visible dash</h2>
     <h3>
       Fred Smith
       <span class="vh">, </span>1960
       <span aria-hidden="true">-</span>
-      <span class="vh"> to </span>2020
+      <span class="vh">to</span>2020
   </h3>
+
+  <h2>With visually hidden "to" and visible dash and role of text</h2>
+    <h3>
+      <span role="text">
+        Fred Smith
+        <span class="vh">, </span>1960
+        <span aria-hidden="true">-</span>
+        <span class="vh">to</span>2020
+      </span>
+    </h3>
 
 </body>
 </html>
