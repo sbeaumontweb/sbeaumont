@@ -1,0 +1,24 @@
+{
+  "name": "sbeaumont",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:site": "eleventy",
+    "serve": "eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sbeaumontweb/sbeaumont.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sbeaumontweb/sbeaumont/issues"
+  },
+  "homepage": "https://github.com/sbeaumontweb/sbeaumont#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.0"
+  }
+}
