@@ -4,6 +4,25 @@ body {
     margin: 0;
 }
 
+*, ::before, ::after { box-sizing: border-box; }
+body { margin: 0; }
+[hidden] { display: none; }
+img, svg, video, canvas, audio, iframe, embed, object {
+  display: block;
+  vertical-align: middle;
+  max-width: 100%;
+}
+audio:not([controls]) { display:none; }
+img, svg, video, canvas {
+  height: auto;
+}
+img { border-style: none; }
+
+.wrap {
+    max-width: 67%;
+    margin: 0 auto;
+}
+
 .header {
     background-color: rgb(235, 191, 95);
     padding: 1rem 0 1rem 0;
@@ -21,10 +40,6 @@ body {
 .nav__list a {
     color: #000;
     font-size: large;
-}
-
-.main {
-    padding: 0 2rem 2rem 2rem;
 }
 
 .footer {
