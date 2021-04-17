@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 
 <html lang="en">
-  {% include head %}
-
+  {% include chunks/head %}
   <body>
-    {% include header %}
+    {% include chunks/header %}
         <main>
             <div class="wrap">
-            {{ content }}
+              <div class="trunk">
+                {{ content }}
+              </div>
             </div>
         </main>
-    {% include footer %}
+    {% include chunks/footer %}
   </body>
 </html>
